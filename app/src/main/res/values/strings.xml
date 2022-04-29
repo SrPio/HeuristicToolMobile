@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HeuristicToolMobile-V2</string>
+    <string name="btnLogin">Login</string>
+    <string name="tagOpciones">¿Que desea Hacer?</string>
+    <string name="btnCreateTxt">Crear Evaluación</string>
+    <string name="btnDoTxt">Realizar Evaluación</string>
+    <string name="btnResultTxt">Resultados</string>
+    <string name="dscriptIMGlogin">logo_inicio</string>
+    <string name="TextoMobile">Mobile</string>
+    <string name="TitleCrearEvaluacion">Crear Evaluación</string>
+    <string name="TipoImplementacion">Tipo de Implementación:</string>
+    <string name="TipoAplicacion">Tipo de Aplicación:</string>
+    <string name="TipoEvaluacion">Tipo de Evaluación</string>
+    <string name="txtPublica">Pública</string>
+    <string name="txtPrivada">Privada</string>
+    <string name="txtProposito">Propósito:</string>
+    <string name="txtEmpresa">Empresa:</string>
+    <string name="txtFechaMaxEva">Fecha máxima de evaluación:</string>
+    <string name="txtAdjunImg">Adjuntar imagen:</string>
+    <string name="txtAddImg">Añadir Imagen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
