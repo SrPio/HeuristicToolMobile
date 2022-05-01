@@ -10,6 +10,8 @@
     app:cardCornerRadius="10dp"
     app:cardElevation="4dp"
     app:cardUseCompatPadding="true"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
     >
 
     <LinearLayout
@@ -47,23 +49,21 @@
             android:layout_height="match_parent"
             android:padding="5dp">
 
-            <TextView
+           <!-- <TextView
                 android:id="@+id/empresa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Empresa: "
-                android:textSize="16dp"
                 android:textColor="@color/black"
-                />
+                android:textSize="16dp" />-->
 
             <TextView
                 android:id="@+id/campoEmpresa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/empresa"
-                android:textSize="16dp"
                 android:textColor="@color/black"
-                />
+                android:textStyle="bold"
+                android:textSize="18dp" />
 
         </RelativeLayout>
         <RelativeLayout
@@ -147,20 +147,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Proposito: "
-                android:textSize="16dp"
                 android:textColor="@color/black"
-                />
+                android:textStyle="bold"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/campoProposito"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/proposito"
-                android:textSize="16dp"
                 android:textColor="@color/black"
-                />
-
+                android:textSize="16dp" />
         </RelativeLayout>
+
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -171,9 +176,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Usuario Creador: "
-                android:textSize="16dp"
                 android:textColor="@color/black"
-                />
+                android:textStyle="bold"
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/campoUsuarioCreador"
@@ -197,6 +202,7 @@
                 android:text="Año: "
                 android:textSize="16dp"
                 android:textColor="@color/black"
+                android:textStyle="bold"
                 />
 
             <TextView

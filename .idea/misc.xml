@@ -3,16 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/drawable/cardbox.xml" value="0.2203125" />
         <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/drawable/icon_evpublic.xml" value="0.2203125" />
         <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/drawable/icon_info.xml" value="0.2203125" />
         <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/drawable/icon_login.xml" value="0.2203125" />
         <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/font/roboto_mono_medium.xml" value="0.234375" />
         <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/font/roboto_thin.xml" value="0.234375" />
-        <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/layout/formato_card.xml" value="0.33" />
-        <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/layout/fragment_ev_publicas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/layout/fragment_ev_publicas.xml" value="0.25" />
         <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/layout/fragment_info.xml" value="0.20416666666666666" />
-        <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/layout/fragment_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/layout/fragment_login.xml" value="0.25" />
         <entry key="..\:/Documents/AndroidStudioProjects/HeuristicToolMobileV2/app/src/main/res/layout/fragment_menu_seleccion.xml" value="0.25" />
       </map>
     </option>

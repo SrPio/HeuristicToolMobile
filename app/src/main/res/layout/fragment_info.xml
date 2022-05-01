@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Controlador.Info">
+    tools:context=".Controlador.Info"
+    android:background="#219EBC">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -11,6 +12,7 @@
         android:layout_height="match_parent"
         android:text="HeuristicTool Mobile - all rights reserved © 2022"
         android:textSize="24sp"
+        android:textColor="@color/white"
         android:gravity="center" />
 
 </FrameLayout>

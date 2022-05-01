@@ -18,6 +18,9 @@
     <string name="txtFechaMaxEva">Fecha máxima de evaluación:</string>
     <string name="txtAdjunImg">Adjuntar imagen:</string>
     <string name="txtAddImg">Añadir Imagen</string>
+    <string name="txtBinvenidaLogin">Bienvenido</string>
+    <string name="txtBinvenidaLogin2">Ingresa</string>
+    <string name="txtEvPublicasTitle">Evaluaciones Públicas</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

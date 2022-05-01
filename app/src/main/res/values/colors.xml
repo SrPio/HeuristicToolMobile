@@ -8,7 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="Ui_principal">#5BC0DE</color>
+    <color name="Ui_principal">#00b4d8</color>
+    <color name="Ui_variantPrincipal">#219EBC</color>
     <color name="Ui_secundario">#39AED1</color>
     <color name="Ui_colorContraste">#0077B6</color>
 </resources>
