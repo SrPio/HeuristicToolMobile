@@ -68,13 +68,13 @@
                     android:contentDescription="@string/dscriptIMGlogin"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/heuristictool1" />
+                    app:srcCompat="@drawable/heuristictoolhd" />
 
                 <TextView
                     android:id="@+id/titleLogin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto_mono_medium"
+                    android:textStyle="bold"
                     android:text="@string/TextoMobile"
                     android:textSize="20sp"
                     app:layout_constraintStart_toStartOf="parent"
