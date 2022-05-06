@@ -21,6 +21,9 @@
     <string name="txtBinvenidaLogin">Bienvenido</string>
     <string name="txtBinvenidaLogin2">Ingresa</string>
     <string name="txtEvPublicasTitle">Evaluaciones Públicas</string>
+    <string name="txtSaludoHomePage">¡Hola!</string>
+    <string name="txtTituloHomePage">Bienvenido a HeuristicTool</string>
+    <string name="txtTitulo2HomePage">Elige una opción para comenzar</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

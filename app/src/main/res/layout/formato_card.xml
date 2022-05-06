@@ -23,25 +23,40 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="5dp">
+            android:background="@drawable/button_home"
+            android:elevation="3dp"
+            android:outlineSpotShadowColor="@color/Ui_principal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="7dp">
 
             <TextView
                 android:id="@+id/id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Id: "
-                android:textSize="16dp"
-                android:textColor="@color/black"
-                />
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/campoId"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/id"
-                android:textSize="16dp"
-                android:textColor="@color/black"
-                />
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/campoEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@id/campoId"
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
         </RelativeLayout>
         <RelativeLayout
@@ -57,14 +72,6 @@
                 android:textColor="@color/black"
                 android:textSize="16dp" />-->
 
-            <TextView
-                android:id="@+id/campoEmpresa"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="18dp" />
-
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
@@ -77,6 +84,7 @@
                 android:layout_height="wrap_content"
                 android:text="Tipo Implementacion: "
                 android:textColor="@color/black"
+                android:textStyle="bold"
                 android:textSize="16dp" />
 
             <TextView
@@ -99,9 +107,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Tipo Aplicacion: "
-                android:textSize="16dp"
                 android:textColor="@color/black"
-                />
+                android:textStyle="bold"
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/campoTipoAplicacion"
@@ -123,9 +131,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Tipo Evaluacion: "
-                android:textSize="16dp"
                 android:textColor="@color/black"
-                />
+                android:textStyle="bold"
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/campoTipoEvaluacion"
@@ -148,8 +156,8 @@
                 android:layout_height="wrap_content"
                 android:text="Proposito: "
                 android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="16dp" />
+                android:textSize="16dp"
+                android:textStyle="bold" />
 
         </RelativeLayout>
         <RelativeLayout

@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import com.example.heuristictoolmobile_v2.fragment_menu_seleccion;
+
 public class PagerController extends FragmentPagerAdapter {
     int numOfTabs;
 
@@ -24,6 +26,8 @@ public class PagerController extends FragmentPagerAdapter {
                 return new EvPublicas();
             case 2:
                 return new Info();
+            /*case 3:
+                return new fragment_menu_seleccion();*/
             default:
                 return null;
         }

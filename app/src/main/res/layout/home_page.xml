@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/txtSaludoHomePage"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#39AED1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#39AED1"
+        android:textSize="20dp"
+        android:text="@string/txtTituloHomePage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:textColor="#39AED1"
+        android:textSize="20dp"
+        android:text="@string/txtTitulo2HomePage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/txtTituloHomePage"
+                android:src="@drawable/boton_crear_ev" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/boton_evaluar" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/boton_resultados" />
+        </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,18 +1,17 @@
 package com.example.heuristictoolmobile_v2.Controlador;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.example.heuristictoolmobile_v2.HomePage;
 import com.example.heuristictoolmobile_v2.R;
-import com.example.heuristictoolmobile_v2.fragment_menu_seleccion;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -75,6 +74,8 @@ public class Login extends Fragment {
             @Override
             public void onClick(View view) {
 
+                /*
+
                 // Create new fragment and transaction
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction transaction = fragmentManager.beginTransaction();
@@ -88,6 +89,9 @@ public class Login extends Fragment {
 
                 // Commit the transaction
                 transaction.commit();
+*/
+                Intent intent = new Intent(view.getContext(), HomePage.class);
+                startActivity(intent);
             }
         });
 
