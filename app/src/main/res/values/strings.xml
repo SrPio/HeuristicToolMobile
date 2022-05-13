@@ -24,12 +24,7 @@
     <string name="txtSaludoHomePage">¡Hola!</string>
     <string name="txtTituloHomePage">Bienvenido a HeuristicTool</string>
     <string name="txtTitulo2HomePage">Elige una opción para comenzar</string>
-    
-    <string-array name="tipoImplementacion">
-        <item>Escritorio</item>
-        <item>Web</item>
-        <item>Móvil</item>
-    </string-array>
+    <string name="txtFormatDate">dd/mm/aaaa</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
